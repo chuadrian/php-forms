@@ -1,0 +1,110 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f0f4f8;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .error {
+    color: #e74c3c;
+    margin-bottom: 30px;
+  }
+  
+  .msg {
+    color: #34495e;
+    margin: 20px 0 10px 0px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .tag {
+    margin: 0px 0px 20px 0px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="radio"],
+  input[type="checkbox"] {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: calc(100% - 22px);
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  input:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+  }
+  
+  .btn {
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Countdown Timer Styles */
+  #countdown-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .countdown-section {
+    text-align: center;
+    margin: 0 10px;
+  }
+  
+  .countdown-section span {
+    font-size: 26px;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .countdown-label {
+    font-size: 14px;
+    color: #7f8c8d;
+  }
+  
+  label {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #2c3e50;
+  }
+  
+  .container label span {
+    color: #e74c3c;
+  }
+  
